@@ -50,7 +50,6 @@ class Drug:
             drug = f"Unnamed Drug"
         return drug
 
-
     def _dict(self) -> dict:
         data = {
             "id": self.id,

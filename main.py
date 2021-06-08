@@ -11,7 +11,7 @@ from concurrent.futures import ProcessPoolExecutor
 from functools import partial
 from threading import Thread
 
-logging.basicConfig(filename='.log', level=logging.DEBUG)
+logging.basicConfig(filename=".log", level=logging.DEBUG)
 logger = logging.getLogger("pdxfda")
 logger.setLevel(logging.DEBUG)
 handler = logging.FileHandler(filename=".log", mode="w")
@@ -19,6 +19,7 @@ handler.setFormatter(logging.Formatter(r"%(levelname)s - %(message)s"))
 logger.addHandler(handler)
 
 # I was forced to make result and async_result for safe parallel and concurrent execution. I would not do this in a normal case
+
 
 def result(drug: Drug, keywords: list):
     try:
@@ -28,20 +29,19 @@ def result(drug: Drug, keywords: list):
         pdf = "missing"
         found = None
     data = drug._dict()
-    data['flagged'] = found
-    data['rejected'] = False
-    data['timestamp'] = datetime.utcnow()
+    data["flagged"] = found
+    data["rejected"] = False
+    data["timestamp"] = datetime.utcnow()
     return data
-
 
 def multithreaded(ui):
     executor = ProcessPoolExecutor()
-    db = Client(config('mongo_srv_url'))
+    db = Client(config("mongo_srv_url"))
     keywords = db.get_keywords()
     rejected = db.get_rejected()
     futures = []
-    data = query(ui.meta['start'], ui.meta['end'])
-    for item in data['results']:
+    data = query(ui.meta["start"], ui.meta["end"])
+    for item in data["results"]:
         drug = Drug(item)
         if drug.label and drug.id not in rejected:
             fut = executor.submit(result, drug, keywords)
@@ -56,18 +56,17 @@ def multithreaded(ui):
     
 
 
-
 async def singlethreaded(ui):
     pass
+
 
 def main():
     ui = UI()
     ui.home()
-    if ui.meta['perf'] == 'mt':
+    if ui.meta["perf"] == "mt":
         multithreaded(ui)
     else:
         singlethreaded(ui)
-    
 
 
 if __name__ == "__main__":

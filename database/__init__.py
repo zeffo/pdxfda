@@ -5,7 +5,7 @@ from asyncio import AbstractEventLoop
 from motor.motor_asyncio import AsyncIOMotorClient
 from logging import getLogger
 
-logger = getLogger('pdxfda')
+logger = getLogger("pdxfda")
 
 
 class Client(MongoClient):
@@ -19,12 +19,12 @@ class Client(MongoClient):
         return [doc["keyword"] for doc in list(self.PDXFDA.Keywords.find())]
 
     def update_drug(self, _data):
-        data = {'$set': _data}
-        self.PDXFDA.Drugs.update_one({'id': _data['id']}, data, upsert=True)
+        data = {"$set": _data}
+        self.PDXFDA.Drugs.update_one({"id": _data["id"]}, data, upsert=True)
         logger.info(f"Adding to database: {data}")
-    
+
     def get_rejected(self):
-        return {doc['id'] for doc in self.PDXFDA.Drugs.find(filter={'rejected': True})}
+        return {doc["id"] for doc in self.PDXFDA.Drugs.find(filter={"rejected": True})}
 
 
 class AsyncClient(AsyncIOMotorClient):
@@ -32,6 +32,6 @@ class AsyncClient(AsyncIOMotorClient):
 
     async def get_keywords(self):
         return [
-            doc["keyword"] 
+            doc["keyword"]
             for doc in await self.PDXFDA.Keywords.find().to_list(length=None)
         ]
