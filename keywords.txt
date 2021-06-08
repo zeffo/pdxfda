@@ -1,0 +1,951 @@
+
+Solid tumor
+Lung cancer
+Mesothelioma
+Colorectal cancer
+CNS tumor
+Breast cancer
+Malignant melanoma
+Gastric cancer
+Bone cancer
+Esophageal cancer
+Thyroid carcinoma
+Soft tissue sarcoma
+Uterine and cervical cancer
+Prostate cancer
+Head and neck cancer
+Biliary tract cancer
+Liver cancer 
+Gallbladder cancer
+Ovarian cancer
+Fallopian tube cancer
+Primary peritoneal cancer
+Pancreatic cancer
+Cancer of unknown primary
+Other solid tumor
+Urinary tract cancer
+Kidney cancer
+Adrenal cancer
+Neuroendocrine tumor
+Thymic epithelial cancer
+Tumor of small intestine
+Anal cancer
+Penile cancer
+Vulvar cancer
+Skin cancer
+Ampullary cancer
+Appendiceal cancer
+Non-small cell lung cancer
+Small cell lung cancer
+Malignant pleural mesothelioma (subtype of lung cancer)
+Malignant pleural mesothelioma (subtype of mesothelioma)
+Malignant pericardium mesothelioma
+Malignant peritoneum mesothelioma
+Colorectal adenocarcinoma
+Colorectal squamous cell carcinoma
+Colorectal adenosquamous carcinoma
+Colorectal spindle cell carcinoma
+Colorectal undifferentiated carcinoma
+Glioma
+Primitive neuroectodermal tumor
+Meningioma
+Ganglioglioma
+Dysembryoplastic neuroepithelial tumor
+Hemangioblastoma
+Craniopharyngioma
+Phyllodes tumor of breast
+Invasive breast cancer
+Carcinoma in situ of breast
+Sarcoma of breast
+Cutaneous melanoma
+Mucosal melanoma
+Uveal melanoma
+Vaginal melanoma
+Vulvar melanoma
+Gastric carcinoma
+Sarcoma of bone
+Carcinoma of esophagus
+Esophagogastric junction cancer
+Papillary thyroid carcinoma
+Follicular thyroid carcinoma
+Hurthle cell carcinoma of thyroid
+Anaplastic thyroid carcinoma
+Medullary thyroid carcinoma
+Poorly differentiated thyroid carcinoma
+Liposarcoma
+Atypical lipomatous tumor
+Fibroblastic/Myofibroblastic tumor
+Fibrohistiocytic tumor
+Leiomyosarcoma
+Malignant glomus tumor
+Rhabdomyosarcoma
+Epithelioid hemangioendothelioma
+Angiosarcoma of soft tissue
+Gastrointestinal stromal tumor
+Spindle cell hemangioendothelioma
+Nerve sheath tumor
+Stromal tumor of uncertain differentiation
+Undifferentiated/Unclassified sarcoma
+Endometrial carcinoma
+Cervical carcinoma
+Sarcoma of uterus
+Uterine tumor resembling ovarian sex cord tumor
+Carcinoma of prostate
+Non-salivary gland tumor
+Salivary gland tumor
+Cholangiocarcinoma
+Hepatocellular cancer
+Adenocarcinoma of gallbladder
+Malignant epithelial ovarian cancer
+Sex-cord stromal cell tumor
+Germ cell tumor
+Gonadoblastoma
+Pancreatic adenocarcinoma
+Bladder cancer
+Tumor of renal pelvis
+Tumor of ureter
+Tumor of urethra
+Tumor of urachus
+Nephroblastoma
+Renal cell carcinoma
+Tumor of adrenal cortex
+Neuroendocrine tumor of adrenal gland
+Extra adrenal paraganglioma
+Neuroendocrine tumor of small intestine
+Neuroendocrine tumor of bladder
+Neuroendocrine tumor of pancreas
+Thymoma
+Thymic carcinoma
+Small intestine carcinoma
+Anal carcinoma
+Carcinoma of penis
+Vulvar carcinoma
+Squamous cell carcinoma of skin
+Basal cell carcinoma of skin
+Ampullary carcinoma
+Appendiceal adenocarcinoma
+Nonsquamous non-small cell lung cancer
+Squamous non-small cell lung cancer
+Epithelioid pleural mesothelioma
+Sarcomatoid pleural mesothelioma
+Mixed pleural mesothelioma
+Desmoplastic pleural mesothelioma
+Adenocarcinoma of colon
+Adenocarcinoma of rectum
+Squamous cell carcinoma of colon
+Squamous cell carcinoma of rectum
+Adenosquamous carcinoma of colon
+Adenosquamous carcinoma of rectum
+Spindle cell carcinoma of colon
+Spindle cell carcinoma of rectum
+Undifferentiated carcinoma of colon
+Undifferentiated carcinoma of rectum
+Astrocytoma
+Glioblastoma
+Diffuse midline glioma
+Oligodendroglioma
+Oligoastrocytoma
+Ependymoma
+Astroblastoma
+Optic nerve glioma
+Medulloblastoma
+Pineoblastoma
+Neuroblastoma
+Medulloepithelioma
+Embryonal tumor with multilayered rosettes (ETMR)
+Atypical meningioma
+Malignant meningioma
+Papillary craniopharyngioma
+Adamantinous craniopharyngioma
+Borderline phyllodes tumor of breast
+Malignant phyllodes tumor of breast
+Ductal carcinoma of breast
+Lobular carcinoma of breast
+Mixed carcinoma of breast
+Metaplastic carcinoma of breast
+Inflammatory breast cancer
+Lobular carcinoma in situ of breast
+Ductal carcinoma in situ of breast
+Angiosarcoma of breast
+Acral lentiginous melanoma
+Lentigo maligna
+Nodular melanoma
+Desmoplastic melanoma
+Superficial spreading melanoma
+Blue nevus-like melanoma
+Gastric adenocarcinoma
+Squamous cell gastric carcinoma
+Undifferentiated gastric carcinoma
+Adenosquamous gastric carcinoma
+Small cell gastric carcinoma
+Signet-ring cell gastric carcinoma
+Chondrosarcoma of bone
+Chordoma of bone
+Osteosarcoma
+Ewing's sarcoma of bone
+Peripheral neuroectodermal tumor of bone
+High-grade undifferentiated pleomorphic sarcoma of bone
+Adenocarcinoma of esophagus
+Squamous cell carcinoma of esophagus
+Adenosquamous carcinoma of esophagus
+Mucoepidermoid carcinoma of esophagus
+Adenoid cystic carcinoma of esophagus
+Small cell carcinoma of esophagus
+Adenocarcinoma of esophagogastric junction cancer
+Well-differentiated liposarcoma
+Dedifferentiated liposarcoma
+Myxoid liposarcoma
+Round cell liposarcoma
+Pleomorphic liposarcoma
+Dermatofibrosarcoma protuberans
+Malignant solitary fibrous tumor
+Inflammatory myofibroblastic tumor
+Low grade myofibroblastic sarcoma
+Fibrosarcoma
+Myxofibrosarcoma
+Low-grade fibromyxoid sarcoma
+Sclerosing epithelioid fibrosarcoma
+Infantile fibrosarcoma
+Aggressive fibromatosis
+Giant cell tumor of soft tissue
+Tenosynovial giant cell tumor
+Embryonal rhabdomyosarcoma
+Alveolar rhabdomyosarcoma
+Pleomorphic rhabdomyosarcoma
+Spindle cell rhabdomyosarcoma
+Composite hemangioendothelioma
+Retiform hemangioendothelioma
+Pseudomyogenic hemangioendothelioma
+Malignant peripheral nerve sheath tumor
+Epithelioid malignant peripheral nerve sheath tumor
+Malignant triton tumor
+Malignant granular cell tumor
+Malignant ossifying fibromyxoid tumor
+Stromal sarcoma, NOS
+High-grade endometrial stromal tumor
+Myoepithelial carcinoma
+Malignant phosphaturic mesenchymal tumor
+Synovial sarcoma
+Epithelioid sarcoma
+Alveolar soft part sarcoma
+Clear cell sarcoma of soft tissue
+Extraskeletal myxoid chondrosarcoma
+Peripheral neuroectodermal tumor of soft tissue
+Extraskeletal mesenchymal chondrosarcoma
+Extraskeletal Ewing's sarcoma
+Desmoplastic small round cell tumor
+Malignant rhabdoid tumor
+Extrarenal rhabdoid tumor
+Perivascular epithelioid cell tumor (PEComa)
+Intimal sarcoma
+Angiomatoid fibrous histiocytoma
+Spindle cell sarcoma
+Pleomorphic sarcoma
+Round cell sarcoma
+Epithelioid sarcoma, NOS
+Ewing-like sarcoma
+Adenocarcinoma of endometrium
+Primary adenosquamous carcinoma of endometrium
+Primary small cell carcinoma of endometrium
+Primary squamous cell carcinoma of endometrium
+Carcinosarcoma of uterus (Malignant mixed Mullerian tumour)
+Adenocarcinoma of cervix
+Adenosquamous carcinoma of cervix
+Squamous cell carcinoma of cervix
+Small cell neuroendocrine carcinoma of cervix
+Undifferentiated sarcoma of uterus
+Leiomyosarcoma of uterus
+Endometrial stromal sarcoma
+Adenosarcoma of the uterus
+Rhabdomyosarcoma of the uterus
+Perivascular epithelioid cell tumor (PEComa) of the uterus
+Adenocarcinoma of prostate
+Small cell neuroendocrine carcinoma of prostate
+Squamous cell carcinoma of prostate
+Transitional cell carcinoma of prostate
+Basal cell carcinoma of prostate
+Adenosquamous carcinoma of prostate
+Mucosal melanoma of head and neck
+Squamous cell carcinoma of head and neck
+Adenocarcinoma of head and neck
+Anaplastic carcinoma of head and neck
+Undifferentiated carcinoma of head and neck
+Esthesioneuroblastoma
+Sinonasal undifferentiated carcinoma
+Mucoepidermoid carcinoma of salivary gland
+Adenocarcinoma of salivary gland
+Acinic cell carcinoma of salivary gland
+Adenoid cystic carcinoma of salivary gland
+Malignant mixed tumor of salivary gland
+Intrahepatic cholangiocarcinoma
+Extrahepatic cholangiocarcinoma
+Fibrolamellar hepatocellular carcinoma
+Combined hepatocellular carcinoma and cholangiocarcinoma
+Serous carcinoma of ovary
+Mucinous carcinoma of ovary
+Clear cell carcinoma of ovary
+Endometrioid carcinoma of ovary
+Brenner tumor of ovary
+Epithelial-stromal tumor
+Adult granulosa cell tumor
+Juvenile granulosa cell tumor
+Ovarian fibrosarcoma
+Steroid cell tumor, malignant
+Sertoli-Leydig cell tumor
+Sertoli cell tumor
+Sex cord tumor with annular tubules
+Mixed germ cell-sex cord-stromal tumor (subtype of sex-cord stromal cell tumor)
+Dysgerminoma
+Embryonal carcinoma
+Choriocarcinoma
+Mixed germ cell tumor
+Immature teratoma
+Mixed germ cell-sex cord-stromal tumor (subtype of germ cell tumor)
+Ductal adenocarcinoma of pancreas
+Adenosquamous carcinoma of pancreas
+Acinar cell carcinoma of pancreas
+Cystadenocarcinoma of pancreas
+Invasive intraductal papillary-mucinous carcinoma of pancreas
+Urothelial carcinoma of bladder
+Squamous cell carcinoma of bladder
+Adenocarcinoma of bladder
+Small cell carcinoma of bladder
+Bladder cancer with mixed histology
+Urothelial carcinoma of renal pelvis
+Urothelial carcinoma of ureter
+Urothelial carcinoma of urethra
+Urachal carcinoma
+Clear cell renal cell carcinoma
+Papillary renal cell carcinoma
+Chromophobe renal cell carcinoma
+Collecting duct carcinoma
+Renal medullary carcinoma
+Adrenal cortex carcinoma
+Pheochromocytoma
+Paraganglioma
+Gangliocytic paraganglioma
+Paraganglioma of bladder
+Thymoma, type A
+Thymoma, type AB
+Thymoma, type B1
+Thymoma, type B2
+Thymoma, type B3
+Squamous cell carcinoma of thymus
+Lymphoepithelioma-like carcinoma of thymus
+Undifferentiated carcinoma of thymus
+Adenocarcinoma of small intestine
+Mucinous adenocarcinoma of small intestine
+Signet-ring cell carcinoma of small intestine
+Small cell carcinoma of small intestine
+Squamous cell carcinoma of small intestine
+Adenosquamous carcinoma of small intestine
+Medullary carcinoma of small intestine
+Undifferentiated carcinoma of small intestine
+Squamous cell carcinoma of anus
+Squamous cell carcinoma of penis
+Squamous cell carcinoma of vulva
+Ampullary adenocarcinoma
+Adenocarcinoma of lung
+Adenosquamous carcinoma of lung
+Large cell carcinoma of lung
+Sarcomatoid carcinoma of lung
+Diffuse astrocytoma
+Anaplastic astrocytoma
+Pilocytic astrocytoma
+Pleomorphic xanthoastrocytoma
+Diffuse oligodendroglioma
+Anaplastic oligodendroglioma
+Diffuse oligoastrocytoma
+Anaplastic oligoastrocytoma
+Anaplastic ependymoma
+Myxopapillary ependymoma
+Subependymoma
+Secretory carcinoma of breast
+Medullary carcinoma of breast
+Tubular carcinoma of breast
+Mucinous carcinoma of breast
+Hormone receptor positive lobular carcinoma of breast
+Hormone receptor negative lobular carcinoma of breast
+Hormone receptor positive mixed carcinoma of breast
+Hormone receptor negative mixed carcinoma of breast
+Hormone receptor positive metaplastic carcinoma of breast
+Hormone receptor negative metaplastic carcinoma of breast
+Hormone receptor positive inflammatory breast cancer
+Hormone receptor negative inflammatory breast cancer
+Intestinal gastric adenocarcinoma
+Diffuse gastric adenocarcinoma
+Clear cell chondrosarcoma of bone
+Dedifferentiated chondrosarcoma of bone
+Myxoid chondrosarcoma of bone
+Mesenchymal chondrosarcoma of bone
+Conventional chondrosarcoma
+Siewert type I adenocarcinoma of esophagogastric junction
+Siewert type II adenocarcinoma of esophagogastric junction
+Siewert type III adenocarcinoma of esophagogastric junction
+Atypical teratoid rhabdoid tumor
+Serous adenocarcinoma of endometrium
+Clear cell adenocarcinoma of endometrium
+Mixed carcinoma of endometrium
+Undifferentiated carcinoma of endometrium
+Mucinous adenocarcinoma of endometrium
+Endometrioid adenocarcinoma
+Epithelioid leiomyosarcoma of uterus
+Myxoid leiomyosarcoma of uterus
+High grade endometrial stromal sarcoma
+Low grade endometrial stromal sarcoma
+Embryonal rhabdomyosarcoma of the uterus
+Alveolar rhabdomyosarcoma of the uterus
+Pleomorphic rhabdomyosarcoma of the uterus
+Spindle rhabdomyosarcoma of the uterus
+Clear cell adenocarcinoma of prostate
+Squamous cell carcinoma of lip
+Squamous cell carcinoma of oral cavity
+Squamous cell carcinoma of tongue
+Squamous cell carcinoma of buccal mucosa
+Squamous cell carcinoma of floor of mouth
+Squamous cell carcinoma of hard palate
+Squamous cell carcinoma of oropharynx
+Squamous cell carcinoma of hypopharynx
+Squamous cell carcinoma of nasopharynx
+Squamous cell carcinoma of larynx
+Squamous cell carcinoma of maxillary sinus 
+Squamous cell carcinoma of ethmoid sinus
+Adenocarcinoma of oral cavity
+Adenocarcinoma of tongue
+Adenocarcinoma of buccal mucosa
+Adenocarcinoma of floor of mouth
+Adenocarcinoma of hard palate
+Adenocarcinoma of oropharynx
+Adenocarcinoma of hypopharynx
+Adenocarcinoma of nasopharynx
+Adenocarcinoma of larynx
+Adenocarcinoma of maxillary sinus 
+Adenocarcinoma of ethmoid sinus
+Anaplastic carcinoma of hard palate
+Undifferentiated carcinoma of nasopharynx
+Low grade serous tumor of ovary
+High grade serous tumor of ovary
+Carcinosarcoma of ovary (Malignant mixed Mullerian tumour)
+Acinar cell cystadenocarcinoma of pancreas
+Serous cystadenocarcinoma of pancreas
+Mucinous cystadenocarcinoma of pancreas
+Infiltrating urothelial carcinoma
+Non-invasive urothelial neoplasm
+Squamous cell carcinoma of perianal skin
+Squamous cell carcinoma of anal canal
+Basaloid carcinoma of penis
+Verrucous carcinoma of penis
+Papillary carcinoma of penis
+Warty carcinoma of penis
+Adenosquamous carcinoma of penis
+Sarcomatoid carcinoma of penis
+Anaplastic pleomorphic xanthoastrocytoma 
+Hormone receptor positive secretory carcinoma of breast
+Hormone receptor negative secretory carcinoma of breast
+Hormone receptor positive medullary carcinoma of breast
+Hormone receptor negative medullary carcinoma of breast
+Hormone receptor positive tubular carcinoma of breast
+Hormone receptor negative tubular carcinoma of breast
+
+Hormone receptor positive mucinous carcinoma of breast
+Hormone receptor negative mucinous carcinoma of breast
+
+Hormone receptor positive Her2-positive lobular carcinoma of breast
+Hormone receptor positive Her2-negative lobular carcinoma of breast
+Hormone receptor negative Her2-positive lobular carcinoma of breast
+Hormone receptor negative Her2-negative lobular carcinoma of breast
+Hormone receptor positive Her2-positive mixed carcinoma of breast
+Hormone receptor positive Her2-negative mixed carcinoma of breast
+Hormone receptor negative Her2-positive mixed carcinoma of breast
+Hormone receptor negative Her2-negative mixed carcinoma of breast
+Hormone receptor positive Her2-positive metaplastic carcinoma of breast
+Hormone receptor positive Her2-negative metaplastic carcinoma of breast
+Hormone receptor negative Her2-positive metaplastic carcinoma of breast
+Hormone receptor negative Her2-negative metaplastic carcinoma of breast
+Hormone receptor positive Her2-positive inflammatory breast cancer
+Hormone receptor positive Her2-negative inflammatory breast cancer
+Hormone receptor negative Her2-positive inflammatory breast cancer
+Hormone receptor negative Her2-negative inflammatory breast cancer
+
+Urothelial carcinoma in situ
+Non-invasive papillary urothelial carcinoma, low-grade
+Non-invasive papillary urothelial carcinoma, high-grade
+Papillary urothelial neoplasm of low malignant potential
+Urothelial papilloma
+Inverted urothelial papilloma
+Hormone receptor positive Her2-positive secretory carcinoma of breast
+Hormone receptor positive Her2-negative secretory carcinoma of breast
+Hormone receptor negative Her2-positive secretory carcinoma of breast
+Hormone receptor negative Her2-negative secretory carcinoma of breast
+Hormone receptor positive Her2-positive medullary carcinoma of breast
+Hormone receptor positive Her2-negative medullary carcinoma of breast
+Hormone receptor negative Her2-positive medullary carcinoma of breast
+Hormone receptor negative Her2-negative medullary carcinoma of breast
+Hormone receptor positive Her2-negative tubular carcinoma of breast
+Hormone receptor negative Her2-negative tubular carcinoma of breast
+
+Hormone receptor positive Her2-negative mucinous carcinoma of breast
+Hormone receptor negative Her2-negative mucinous carcinoma of breast
+
+Malignant pleural mesothelioma
+Rhabdomyosarcoma of  the uterus
+Mixed germ cell-sex cord-stromal tumor
+Pheochromocytoma of adrenal gland
+Adrenal paraganglioma
+Gangliocytic paraganglioma of small intestine
+Malignant neoplastic disease (disorder)
+Malignant tumor of lung (disorder)
+Non-small cell lung cancer (disorder)
+Nonsquamous nonsmall cell neoplasm of lung (disorder)
+Adenocarcinoma of lung (disorder)
+Primary adenosquamous carcinoma of lung (disorder)
+Large cell carcinoma of lung (disorder)
+Primary pseudosarcomatous carcinoma of lung (disorder)
+Squamous non-small cell lung cancer (disorder)
+Small cell carcinoma of lung (disorder)
+Malignant mesothelioma of pleura (disorder)
+Mesothelioma (malignant, clinical disorder) (disorder)
+Epithelioid mesothelioma, malignant (morphologic abnormality)
+Sarcomatoid mesothelioma (morphologic abnormality)
+Mesothelioma, biphasic, malignant (morphologic abnormality)
+Desmoplastic mesothelioma (morphologic abnormality)
+Malignant mesothelioma of pericardium (disorder)
+Malignant mesothelioma of peritoneum (disorder)
+Malignant neoplasm of colon and/or rectum (disorder)
+Adenocarcinoma, no subtype (morphologic abnormality)
+Carcinoma of colon (disorder)
+Malignant epithelial neoplasm of upper rectum (disorder)
+Squamous cell carcinoma (disorder)
+Adenosquamous carcinoma (disorder)
+Spindle cell carcinoma (morphologic abnormality)
+Carcinoma, undifferentiated (morphologic abnormality)
+Neoplasm of central nervous system (disorder)
+Malignant glioma of central nervous system (disorder)
+Astrocytoma of brain (disorder)
+Low grade astrocytoma of brain (disorder)
+Anaplastic astrocytoma of brain (disorder)
+Pilocytic astrocytoma (disorder)
+Pleomorphic xanthoastrocytoma (morphologic abnormality)
+Anaplastic pleomorphic xanthoastrocytoma (morphologic abnormality)
+Glioblastoma multiforme of central nervous system (disorder)
+Diffuse midline glioma, point mutation K27M in histone H3 (morphologic abnormality)
+Oligodendroglioma - category (morphologic abnormality)
+Oligodendroglioma, anaplastic (morphologic abnormality)
+Mixed glioma (morphologic abnormality)
+Anaplastic oligoastrocytoma (morphologic abnormality)
+Ependymoma of central nervous system (disorder)
+Ependymoma, anaplastic (morphologic abnormality)
+Myxopapillary ependymoma (morphologic abnormality)
+Subependymal glioma (morphologic abnormality)
+Astroblastoma of brain (disorder)
+Optic nerve glioma (disorder)
+Primitive neuroectodermal tumor (disorder)
+Medulloblastoma (disorder)
+Pineoblastoma (disorder)
+Neuroblastoma of brain (disorder)
+Medulloepithelioma (disorder)
+Embryonal neoplasm with multilayered rosettes (morphologic abnormality)
+Intracranial meningioma (disorder)
+Atypical meningioma (morphologic abnormality)
+Meningioma, malignant (morphologic abnormality)
+Ganglioglioma (disorder)
+Dysembryoplastic neuroepithelial tumor (disorder)
+Hemangioblastoma (morphologic abnormality)
+Craniopharyngioma (disorder)
+Craniopharyngioma, papillary (morphologic abnormality)
+Craniopharyngioma, adamantinomatous (morphologic abnormality)
+Malignant neoplasm of breast (disorder)
+Phyllodes tumor of breast (disorder)
+Phyllodes tumor of breast, borderline (disorder)
+Malignant phyllodes tumor of breast (disorder)
+Invasive carcinoma of breast (disorder)
+Infiltrating duct carcinoma of breast (disorder)
+Juvenile carcinoma of the breast (morphologic abnormality)
+Hormone receptor positive malignant neoplasm of breast (disorder)
+Human epidermal growth factor 2 positive carcinoma of breast (disorder)
+Human epidermal growth factor 2 negative carcinoma of breast (disorder)
+Hormone receptor negative neoplasm (disorder)
+Medullary carcinoma (morphologic abnormality)
+Tubular adenocarcinoma (morphologic abnormality)
+Mucinous carcinoma of breast (disorder)
+Lobular carcinoma of breast (disorder)
+Carcinoma of breast with ductal and lobular features (disorder)
+Metaplastic carcinoma of breast (disorder)
+Inflammatory carcinoma of breast (disorder)
+Carcinoma in situ of breast (disorder)
+Lobular carcinoma in situ of breast (disorder)
+Intraductal carcinoma in situ of breast (disorder)
+Sarcoma of breast (disorder)
+Primary angiosarcoma of breast (disorder)
+Malignant melanoma (disorder)
+Malignant melanoma of skin (disorder)
+Acral lentiginous malignant melanoma of skin (disorder)
+Lentigo maligna (disorder)
+Nodular malignant melanoma of skin (disorder)
+Desmoplastic malignant melanoma (disorder)
+Superficial spreading malignant melanoma of skin (disorder)
+Malignant blue nevus of skin (disorder)
+Mucosal lentiginous melanoma (morphologic abnormality)
+Malignant melanoma of eye (disorder)
+Primary malignant melanoma of vagina (disorder)
+Malignant melanoma of vulva (disorder)
+Malignant tumor of stomach (disorder)
+Carcinoma of stomach (disorder)
+Adenocarcinoma of stomach (disorder)
+Adenocarcinoma, intestinal type (morphologic abnormality)
+Carcinoma, diffuse type (morphologic abnormality)
+Squamous cell carcinoma of stomach (disorder)
+Undifferentiated carcinoma of stomach (disorder)
+Small cell carcinoma (disorder)
+Signet ring cell carcinoma (morphologic abnormality)
+Malignant neoplasm of bone (disorder)
+Sarcoma of bone (disorder)
+Chondrosarcoma of bone (disorder)
+Clear cell chondrosarcoma (morphologic abnormality)
+Dedifferentiated chondrosarcoma (morphologic abnormality)
+Myxoid chondrosarcoma (morphologic abnormality)
+Mesenchymal chondrosarcoma (morphologic abnormality)
+Primary chondrosarcoma of bone (disorder)
+Chordoma (morphologic abnormality)
+Osteosarcoma of bone (disorder)
+Ewing's sarcoma of bone (disorder)
+Peripheral neuroectodermal tumor (disorder)
+Fibrous histiocytoma, malignant (morphologic abnormality)
+Malignant tumor of esophagus (disorder)
+Carcinoma of esophagus (disorder)
+Adenocarcinoma of esophagus (disorder)
+Squamous cell carcinoma of esophagus (disorder)
+Mucoepidermoid carcinoma (morphologic abnormality)
+Adenoid cystic carcinoma (morphologic abnormality)
+Primary malignant neoplasm of esophagogastric junction (disorder)
+Primary adenocarcinoma of esophagogastric junction (disorder)
+Siewert type I adenocarcinoma of esophagogastric junction (disorder)
+Siewert type II adenocarcinoma of esophagogastric junction (disorder)
+Siewert type III adenocarcinoma of esophagogastric junction (disorder)
+Malignant epithelial neoplasm of thyroid (disorder)
+Papillary thyroid carcinoma (disorder)
+Follicular thyroid carcinoma (disorder)
+Hurthle cell carcinoma of thyroid (disorder)
+Anaplastic thyroid carcinoma (disorder)
+Medullary thyroid carcinoma (disorder)
+Primary poorly differentiated carcinoma of thyroid gland (disorder)
+Sarcoma of soft tissue (disorder)
+Liposarcoma (disorder)
+Adipocytic liposarcoma (disorder)
+Dedifferentiated liposarcoma (disorder)
+Myxoid liposarcoma (disorder)
+Round cell liposarcoma (disorder)
+Pleomorphic liposarcoma (disorder)
+Atypical lipoma of soft tissue (disorder)
+Malignant fibromatous neoplasm (morphologic abnormality)
+Dermatofibrosarcoma protuberans (disorder)
+Solitary fibrous tumor, malignant (morphologic abnormality)
+Inflammatory myofibroblastic tumor (disorder)
+Low grade myofibroblastic sarcoma (morphologic abnormality)
+Malignant fibromatous neoplasm (disorder)
+Myxofibrosarcoma (morphologic abnormality)
+Low-grade fibromyxoid sarcoma (disorder)
+Sclerosing epithelioid fibrosarcoma (morphologic abnormality)
+Infantile fibrosarcoma (morphologic abnormality)
+Aggressive fibromatosis (morphologic abnormality)
+Malignant fibrohistiocytic neoplasm - category (morphologic abnormality)
+Malignant giant cell tumor of soft parts (morphologic abnormality)
+Malignant tenosynovial giant cell tumor (morphologic abnormality)
+Leiomyosarcoma (disorder)
+Glomus tumor, malignant (morphologic abnormality)
+Rhabdomyosarcoma (disorder)
+Embryonal rhabdomyosarcoma (disorder)
+Alveolar rhabdomyosarcoma (disorder)
+Pleomorphic rhabdomyosarcoma (disorder)
+Spindle cell rhabdomyosarcoma (disorder)
+Epithelioid hemangioendothelioma (disorder)
+Angiosarcoma (disorder)
+Gastrointestinal stromal tumor (disorder)
+Spindle cell hemangioendothelioma (morphologic abnormality)
+Composite hemangioendothelioma (morphologic abnormality)
+Retiform hemangioendothelioma (disorder)
+Pseudomyogenic (epithelioid sarcoma-like) hemangioendothelioma (morphologic abnormality)
+Malignant tumor of nerve sheath origin (disorder)
+Malignant peripheral nerve sheath tumor (disorder)
+Epithelioid malignant nerve sheath tumor (disorder)
+Malignant Triton tumor (disorder)
+Malignant granular cell tumor (disorder)
+Complex mixed AND/OR stromal neoplasm (morphologic abnormality)
+Ossifying fibromyxoid tumor, malignant (morphologic abnormality)
+Stromal sarcoma (morphologic abnormality)
+Endometrial stromal sarcoma, high grade (morphologic abnormality)
+Malignant myoepithelioma (morphologic abnormality)
+Phosphaturic mesenchymal tumor, malignant (morphologic abnormality)
+Synovial sarcoma (disorder)
+Epithelioid sarcoma (morphologic abnormality)
+Alveolar soft part sarcoma (disorder)
+Malignant melanoma of soft tissues (disorder)
+Extraskeletal myxoid chondrosarcoma (disorder)
+Extraskeletal mesenchymal chondrosarcoma (disorder)
+Ewing's sarcoma of soft tissue (disorder)
+Desmoplastic small round cell tumor (morphologic abnormality)
+Malignant rhabdoid tumor (morphologic abnormality)
+Extrarenal rhabdoid tumor (disorder)
+Atypical teratoid/rhabdoid tumor (morphologic abnormality)
+Perivascular epithelioid cell tumor (morphologic abnormality)
+Intimal sarcoma (morphologic abnormality)
+Angiomatoid fibrous histiocytoma (morphologic abnormality)
+Undifferentiated sarcoma (morphologic abnormality)
+Spindle cell sarcoma (morphologic abnormality)
+Giant cell sarcoma (morphologic abnormality)
+Round cell sarcoma (morphologic abnormality)
+Small cell sarcoma (morphologic abnormality)
+Neoplasm of uterus (disorder)
+Endometrial carcinoma (disorder)
+Adenocarcinoma of endometrium (disorder)
+Primary serous adenocarcinoma of endometrium (disorder)
+Primary malignant clear cell neoplasm of endometrium (disorder)
+Primary mixed adenocarcinoma of endometrium (disorder)
+Primary undifferentiated carcinoma of endometrium (disorder)
+Primary mucinous adenocarcinoma of endometrium (disorder)
+Endometrioid carcinoma (morphologic abnormality)
+Primary adenosquamous carcinoma of endometrium (disorder)
+Primary small cell carcinoma of endometrium (disorder)
+Primary squamous cell carcinoma of endometrium (disorder)
+Carcinosarcoma of uterus (disorder)
+Malignant tumor of cervix (disorder)
+Adenocarcinoma of cervix (disorder)
+Adenosquamous carcinoma of cervix (disorder)
+Squamous cell carcinoma of cervix (disorder)
+High-grade neuroendocrine carcinoma of cervix uteri (disorder)
+Sarcoma of uterus (disorder)
+Leiomyosarcoma of uterus (disorder)
+Epithelioid leiomyosarcoma (morphologic abnormality)
+Myxoid leiomyosarcoma (morphologic abnormality)
+Endometrial stromal sarcoma (disorder)
+High grade endometrial stromal sarcoma (disorder)
+Low grade endometrial stromal sarcoma (disorder)
+Adenosarcoma of uterus (disorder)
+Uterine tumor resembling ovarian sex cord tumor (morphologic abnormality)
+Primary malignant neoplasm of prostate (disorder)
+Carcinoma of prostate (disorder)
+Adenocarcinoma of prostate (disorder)
+Clear cell adenocarcinoma (morphologic abnormality)
+Small cell carcinoma of prostate (disorder)
+Squamous cell carcinoma of prostate (disorder)
+Transitional cell carcinoma (morphologic abnormality)
+Basal cell carcinoma (morphologic abnormality)
+Malignant tumor of head and/or neck (disorder)
+Malignant neoplasm of lip, oral cavity and/or pharynx (disorder)
+Squamous cell carcinoma of head and neck (disorder)
+Carcinoma of lip (disorder)
+Malignant tumor of oral cavity (disorder)
+Malignant tumor of tongue (disorder)
+Malignant tumor of buccal mucosa (disorder)
+Malignant epithelial neoplasm of floor of mouth (disorder)
+Carcinoma of hard palate (disorder)
+Malignant epithelial neoplasm of oropharynx (disorder)
+Malignant tumor of hypopharynx (disorder)
+Malignant tumor of nasopharynx (disorder)
+Carcinoma of larynx (disorder)
+Malignant tumor of maxillary sinus (disorder)
+Malignant tumor of ethmoid sinus (disorder)
+Adenocarcinoma of head and neck (disorder)
+Carcinoma, anaplastic (morphologic abnormality)
+Undifferentiated carcinoma of nasopharynx (disorder)
+Olfactory neuroblastoma (disorder)
+Undifferentiated carcinoma of nasal sinus (disorder)
+Malignant tumor of salivary gland (disorder)
+Mucoepidermoid carcinoma of salivary gland (disorder)
+Malignant adenomatous neoplasm (disorder)
+Acinar cell carcinoma (morphologic abnormality)
+Adenoid cystic carcinoma of salivary gland (disorder)
+Malignant mixed tumor of salivary gland (disorder)
+Primary malignant neoplasm of biliary tract (disorder)
+Cholangiocarcinoma of biliary tract (disorder)
+Primary cholangiocarcinoma of intrahepatic biliary tract (disorder)
+Carcinoma of extrahepatic bile duct (disorder)
+Malignant neoplasm of liver (disorder)
+Liver cell carcinoma (disorder)
+Fibrolamellar hepatocellular carcinoma (disorder)
+Combined hepatocellular carcinoma and cholangiocarcinoma (disorder)
+Malignant tumor of gallbladder (disorder)
+Primary adenocarcinoma of gallbladder (disorder)
+Malignant tumor of ovary (disorder)
+Malignant epithelial tumor of ovary (disorder)
+Serous intraepithelial carcinoma (morphologic abnormality)
+Primary low grade serous adenocarcinoma of ovary (disorder)
+Primary high grade serous adenocarcinoma of ovary (disorder)
+Primary mucinous adenocarcinoma of ovary (disorder)
+Clear cell adenocarcinoma of ovary (disorder)
+Endometrioid carcinoma ovary (disorder)
+Brenner tumor of ovary (disorder)
+Carcinosarcoma of ovary (disorder)
+Sex cord-stromal tumor category (morphologic abnormality)
+Granulosa cell tumor, adult type (morphologic abnormality)
+Juvenile granulosa cell tumor (morphologic abnormality)
+Fibrosarcoma (morphologic abnormality)
+Steroid cell tumor, malignant (morphologic abnormality)
+Sertoli-Leydig cell tumor of ovary (disorder)
+Sertoli cell carcinoma (morphologic abnormality)
+Sex cord tumor with annular tubules (morphologic abnormality)
+Mixed germ cell-sex cord-stromal tumor, unclassified (morphologic abnormality)
+Germ cell tumor of ovary (disorder)
+Dysgerminoma of ovary (disorder)
+Embryonal carcinoma of ovary (disorder)
+Choriocarcinoma of ovary (disorder)
+Mixed germ cell tumor (morphologic abnormality)
+Immature teratoma of ovary (disorder)
+Gonadoblastoma of ovary (disorder)
+Malignant tumor of fallopian tube (disorder)
+Primary malignant neoplasm of the peritoneum (disorder)
+Malignant tumor of pancreas (disorder)
+Adenocarcinoma of pancreas (disorder)
+Infiltrating duct carcinoma (morphologic abnormality)
+Cystadenocarcinoma of pancreas (disorder)
+Acinar cell cystadenocarcinoma (morphologic abnormality)
+Serous cystadenocarcinoma (morphologic abnormality)
+Mucinous cystadenocarcinoma (morphologic abnormality)
+Intraductal papillary-mucinous carcinoma, invasive (morphologic abnormality)
+Malignant tumor of unknown origin or ill-defined site (disorder)
+Primary malignant neoplasm (disorder)
+Malignant tumor of urinary tract proper (disorder)
+Malignant tumor of urinary bladder (disorder)
+Transitional cell carcinoma of bladder (disorder)
+Transitional cell carcinoma in situ (morphologic abnormality)
+Papillary transitional cell carcinoma, non-invasive (morphologic abnormality)
+Papillary transitional cell neoplasm of low malignant potential (morphologic abnormality)
+Urothelial papilloma (morphologic abnormality)
+Inverted urothelial papilloma (morphologic abnormality)
+Squamous cell carcinoma of bladder (disorder)
+Adenocarcinoma of bladder (disorder)
+Malignant tumor of renal pelvis (disorder)
+Malignant tumor of ureter (disorder)
+Transitional cell carcinoma of ureter (disorder)
+Malignant tumor of urethra (disorder)
+Primary transitional cell carcinoma of urethra (disorder)
+Malignant tumor of urachus (disorder)
+Primary malignant neoplasm of urachus (disorder)
+Malignant tumor of kidney (disorder)
+Nephroblastoma (disorder)
+Renal cell carcinoma (disorder)
+Clear cell carcinoma of kidney (disorder)
+Papillary renal cell carcinoma (disorder)
+Chromophobe renal cell carcinoma (disorder)
+Collecting duct carcinoma of kidney (disorder)
+Renal medullary carcinoma (disorder)
+Neoplasm of adrenal gland (disorder)
+Malignant neoplasm of adrenal cortex (disorder)
+Adrenal cortical carcinoma (morphologic abnormality)
+Malignant neuroendocrine tumor (disorder)
+Malignant pheochromocytoma (disorder)
+Paraganglioma, malignant (morphologic abnormality)
+Extra-adrenal paraganglioma (disorder)
+Primary malignant neuroendocrine neoplasm of small intestine (disorder)
+Gangliocytic paraganglioma (morphologic abnormality)
+Paraganglioma (disorder)
+Neuroendocrine tumor of pancreas (disorder)
+Thymic epithelial neoplasm (morphologic abnormality)
+Thymoma (disorder)
+Thymoma, type A, malignant (morphologic abnormality)
+Thymoma, type AB, malignant (morphologic abnormality)
+Thymoma, type B1, malignant (morphologic abnormality)
+Thymoma, type B2, malignant (morphologic abnormality)
+Thymoma, type B3, malignant (morphologic abnormality)
+Thymoma, type C (morphologic abnormality)
+Primary squamous cell carcinoma of thymus (disorder)
+Lymphoepithelial carcinoma (morphologic abnormality)
+Neoplasm of small intestine (disorder)
+Malignant epithelial neoplasm of small intestine (disorder)
+Adenocarcinoma of small intestine (disorder)
+Mucinous adenocarcinoma (morphologic abnormality)
+Squamous cell carcinoma of small intestine (disorder)
+Malignant tumor of anus (disorder)
+Malignant epithelial neoplasm of anus (disorder)
+Primary squamous cell carcinoma of anus (disorder)
+Squamous cell carcinoma of anal margin (disorder)
+Primary squamous cell carcinoma of anal canal (disorder)
+Malignant tumor of penis (disorder)
+Carcinoma of penis (disorder)
+Squamous cell carcinoma of penis (disorder)
+Basaloid carcinoma (morphologic abnormality)
+Penile verrucous carcinoma of Buschke-Löwenstein (disorder)
+Papillary carcinoma (morphologic abnormality)
+Warty (condylomatous) carcinoma (morphologic abnormality)
+Pseudosarcomatous carcinoma (morphologic abnormality)
+Malignant tumor of vulva (disorder)
+Malignant epithelial neoplasm of vulva (disorder)
+Squamous cell carcinoma of vulva (disorder)
+Malignant neoplasm of skin (disorder)
+Squamous cell carcinoma of skin (disorder)
+Basal cell carcinoma of skin (disorder)
+Primary malignant neoplasm of ampulla of Vater (disorder)
+Carcinoma of ampulla of Vater (disorder)
+Primary adenocarcinoma of ampulla of Vater (disorder)
+Malignant tumor of appendix (disorder)
+Adenocarcinoma of appendix (disorder)
+non-small cell lung cancer
+Metastatic
+accelerated
+Unresectable
+Chronic
+Relapsed
+locally advanced
+medullary thyroid cancer
+gastroesophageal junction adenocarcinoma
+thyroid cancer
+gastric adenocarcinoma
+Gastrointestinal Stromal Tumor
+GIST
+breast cancer
+acute myeloid leukemia
+Melanoma
+Anaplastic Thyroid Cancer
+Thyroid Cancer
+Anaplastic
+colorectal cancer
+Solid Tumor
+Erdheim Chester Disease
+Philadelphia chromosome-positive
+Philadelphia chromosome-negative
+Philadelphia chromosome
+Ph+
+acute lymphoblastic leukemia
+chronic myelogenous leukemia
+Chronic phase
+accelerated phase
+Myelodysplastic/Myeloproliferative diseases
+Myelodysplastic
+systemic mastocytosis
+chronic myeloid leukemia
+blast crisis
+Microsatellite instability-high
+mismatch repair deficient
+MSI-H
+dMMR
+Small lymphocytic lymphoma
+17p deletion
+Anaplastic Large Cell Lymphoma
+cholangiocarcinoma
+peritoneal cancer
+ovarian cancer
+fallopian tube cancer
+pancreatic adenocarcinoma
+Solid tumors
+endometrial cancer
+myeloid
+lymphoid
+blast phase
+Ph positive
+refractory
+follicular lymphoma
+HER2-positive
+inflammatory
+Deleterious
+ER/PR negative
+node positive
+node negative
+urothelial carcinoma
+dermatofibrosarcoma protuberans
+epithelial ovarian cancer
+castration-resistant prostate cancer
+prostate cancer
+castration resistant prostate cancer
+acute promyelocytic leukemia
+non small cell lung cancer
+NSCLC
