@@ -9,6 +9,17 @@ psg.theme("DarkAmber")
 class UI:
     def __init__(self):
         self.meta = {}
+        self.db = Client(config("mongo_srv_url"))
+
+    def result(self, url):
+        RESULT  = [psg.Text(f"The results have been saved to {url}")]
+        self.window = psg.Window("Results", RESULT)
+        while True:
+            event, values = self.window.read()
+            if event == psg.WIN_CLOSED:
+                exit()
+            
+
 
     def emails(self):
         loaded = config("emails")
@@ -57,12 +68,11 @@ class UI:
         self.window["bar"].update(count)
 
     def set_keywords(self, file):
-        db = Client(config("mongo_srv_url"))
-        db.PDXFDA.Keywords.delete_many({})
+        self.db.PDXFDA.Keywords.delete_many({})
         IGNORE = {"", '"'}
         with open(file) as f:
             keywords = f.read().lower().split("\n")
-            res = db.PDXFDA.Keywords.insert_many(
+            res = self.db.PDXFDA.Keywords.insert_many(
                 [{"keyword": word} for word in keywords if word not in IGNORE]
             )
 

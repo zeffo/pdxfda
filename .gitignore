@@ -2,3 +2,4 @@ __pycache__/
 .log
 ui/config.json
 keywords.txt
+auth.json

@@ -1,4 +1,4 @@
-from .api import async_query, query
+from .api import async_query, query, spreadsheet, to_worksheet
 from .error_handler import handle
 from .pdf import check_for_keywords
 from .timeframes import week, month, to_datetime
@@ -14,4 +14,6 @@ __all__ = (
     month,
     config,
     to_datetime,
+    to_worksheet,
+    spreadsheet
 )

@@ -1,7 +1,5 @@
 from pymongo import MongoClient
-from datetime import datetime
-from models import Drug
-from asyncio import AbstractEventLoop
+from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
 from logging import getLogger
 
@@ -25,6 +23,15 @@ class Client(MongoClient):
 
     def get_rejected(self):
         return {doc["id"] for doc in self.PDXFDA.Drugs.find(filter={"rejected": True})}
+
+    def get_missing_labels(self, hours):
+        return [drug.values()for drug in self.PDXFDA.Drugs.find(filter={"label": "missing"}, projection={"_id": False})]
+    
+    def get_flagged_drugs(self, hours):
+        return [drug.values()for drug in self.PDXFDA.Drugs.find(filter={"label": {"$ne": "missing"}}, projection={"_id": False})]
+
+    def get_new_drugs(self, hours):
+        return [drug.values()[1:] for drug in self.PDXFDA.Drugs.find(filter={"timestamp": {"$gte": datetime.utcnow()-timedelta(hours=hours)}}, projection={"_id": False})]
 
 
 class AsyncClient(AsyncIOMotorClient):

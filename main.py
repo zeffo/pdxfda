@@ -1,15 +1,14 @@
-import gspread
 from errors import APIError
 from database import Client
-from models import Drug, Document, Submission, Product
-from utils import query, handle, check_for_keywords, config
+from models import Drug
+from utils import query, handle, check_for_keywords, config, spreadsheet, to_worksheet
 from datetime import datetime
 import logging
 from time import perf_counter
 from ui import UI
 from concurrent.futures import ProcessPoolExecutor
-from functools import partial
-from threading import Thread
+import gspread
+
 
 logging.basicConfig(filename=".log", level=logging.DEBUG)
 logger = logging.getLogger("pdxfda")
@@ -40,7 +39,8 @@ def multithreaded(ui):
     keywords = db.get_keywords()
     rejected = db.get_rejected()
     futures = []
-    data = query(ui.meta["start"], ui.meta["end"])
+    start, end = ui.meta["start"], ui.meta["end"]
+    data = query(start, end)
     for item in data["results"]:
         drug = Drug(item)
         if drug.label and drug.id not in rejected:
@@ -53,6 +53,14 @@ def multithreaded(ui):
         done += 1
         db.update_drug(res)
         ui.update_bar(done)
+    hours = (end - start).total_seconds() // 3600
+    sh = spreadsheet()
+    to_worksheet(sh, "Cancer Related", db.get_flagged_drugs(hours))
+    to_worksheet(sh, "Newly added/updated drugs", db.get_new_drugs(hours))
+    to_worksheet(sh, "Drugs with Missing Labels", db.get_missing_labels(hours))
+    ui.result(sh.url)
+    
+
     
 
 
