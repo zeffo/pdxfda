@@ -1,14 +1,11 @@
 from errors import APIError
 from database import Client
 from models import Drug
-from utils import query, handle, check_for_keywords, config, spreadsheet, to_worksheet
+from utils import handle, check_for_keywords, config, spreadsheet, to_worksheet, query_from_config
 from datetime import datetime
 import logging
 from time import perf_counter
-from ui import UI
 from concurrent.futures import ProcessPoolExecutor
-import gspread
-
 
 logging.basicConfig(filename=".log", level=logging.DEBUG)
 logger = logging.getLogger("pdxfda")
@@ -17,64 +14,45 @@ handler = logging.FileHandler(filename=".log", mode="w")
 handler.setFormatter(logging.Formatter(r"%(levelname)s - %(message)s"))
 logger.addHandler(handler)
 
-# I was forced to make result and async_result for safe parallel and concurrent execution. I would not do this in a normal case
-
 
 def result(drug: Drug, keywords: list):
-    try:
-        pdf = drug.label.read()
-        found = check_for_keywords(pdf, keywords)
-    except APIError:
-        pdf = "missing"
-        found = None
+    # Need to store: Name, NDA, Label, Found Keywords (flagged), Rejection Status, Timestamp
     data = drug._dict()
+    found = None
+    if data["label"] != "missing":
+        found = check_for_keywords(drug.label.read(), keywords)
     data["flagged"] = found
     data["rejected"] = False
     data["timestamp"] = datetime.utcnow()
     return data
 
-def multithreaded(ui):
-    executor = ProcessPoolExecutor()
-    db = Client(config("mongo_srv_url"))
+def main():
+    db = Client(config('mongo_srv_url'))
     keywords = db.get_keywords()
     rejected = db.get_rejected()
     futures = []
-    start, end = ui.meta["start"], ui.meta["end"]
-    data = query(start, end)
-    for item in data["results"]:
-        drug = Drug(item)
-        if drug.label and drug.id not in rejected:
-            fut = executor.submit(result, drug, keywords)
-            futures.append(fut)
-    ui.load(len(futures))
-    done = 0
+    data = query_from_config()
+
+    with ProcessPoolExecutor() as executor:
+        for item in data["results"]:
+            drug = Drug(item)
+            if drug.id not in rejected:
+                fut = executor.submit(result, drug, keywords)
+                futures.append(fut)
+
     for fut in futures:
         res = fut.result()
-        done += 1
         db.update_drug(res)
-        ui.update_bar(done)
-    hours = (end - start).total_seconds() // 3600
+
     sh = spreadsheet()
-    to_worksheet(sh, "Cancer Related", db.get_flagged_drugs(hours))
-    to_worksheet(sh, "Newly added/updated drugs", db.get_new_drugs(hours))
-    to_worksheet(sh, "Drugs with Missing Labels", db.get_missing_labels(hours))
-    ui.result(sh.url)
-    
+    to_worksheet(sh, "Cancer Related", db.get_flagged_drugs())
+    to_worksheet(sh, "Newly added/updated drugs", db.get_new_drugs())
+    to_worksheet(sh, "Drugs with Missing Labels", db.get_missing_labels())
+    sh.del_worksheet(sh.sheet1)
+    for email in config('emails'):
+        sh.share(email, 'user', 'writer')
 
-    
-
-
-async def singlethreaded(ui):
-    pass
-
-
-def main():
-    ui = UI()
-    ui.home()
-    if ui.meta["perf"] == "mt":
-        multithreaded(ui)
-    else:
-        singlethreaded(ui)
+    print("Data sent to", sh.url)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,4 @@
-from .api import async_query, query, spreadsheet, to_worksheet
+from .api import async_query, query, spreadsheet, to_worksheet, query_from_config
 from .error_handler import handle
 from .pdf import check_for_keywords
 from .timeframes import week, month, to_datetime

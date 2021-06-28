@@ -4,6 +4,7 @@ from datetime import datetime
 from errors import APIError
 from aiohttp import ClientSession
 from .config import config
+from .timeframes import TIMEFRAMES, to_datetime
 import gspread
 from logging import getLogger
 
@@ -19,6 +20,21 @@ def query(start: datetime, end: datetime) -> dict:
         return resp.json()
     else:
         raise APIError(resp.status_code)
+
+def query_from_config():
+    start = config('start')
+    if not start:
+        frame = config('time')
+        if frame in TIMEFRAMES:
+            time = TIMEFRAMES[frame]()
+        else:
+            print(f"Invalid Timeframe! Supported: {', '.join(TIMEFRAMES)}")
+            exit()
+    else:
+        time = to_datetime(config('start'), config('end'))
+
+    return query(*time)
+
 
 
 async def async_query(start: datetime, end: datetime, session: ClientSession) -> dict:

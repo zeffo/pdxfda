@@ -16,17 +16,15 @@ class Document:
 
     def read(self):
         resp = get(self.url)
-        if resp.status_code == 200:
-            return resp.content
-        else:
-            raise APIError(resp.status_code)
+        return resp.content if resp.status_code == 200 else None
+            
 
     async def async_read(self):
         async with request("get", self.url) as resp:
             if resp.status == 200:
                 return await resp.read()
             else:
-                raise APIError(resp.status)
+                return None
 
     def __repr__(self) -> str:
         return self.url

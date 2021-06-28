@@ -38,6 +38,7 @@ class Drug:
         for submission in self.submissions():
             if label := submission.label():
                 return label
+        return None
 
     @property
     def name(self) -> str:
@@ -54,6 +55,6 @@ class Drug:
         data = {
             "id": self.id,
             "name": self.name,
-            "label": str(self.label),
+            "label": str(self.label or "missing"),
         }
         return data

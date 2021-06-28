@@ -1,8 +1,7 @@
 import json
-from utils import config
 from os import getcwd
 
-PATH = f"{getcwd()}/ui/config.json"
+PATH = f"{getcwd()}/config.json"
 
 
 def config(key=None) -> dict:
