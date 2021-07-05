@@ -16,10 +16,7 @@ class Document:
 
     def read(self):
         resp = get(self.url)
-        if resp.status_code == 200:
-            return resp.content
-        else:
-            raise APIError(resp.status_code)
+        return resp.content if resp.status_code == 200 else None
 
     async def async_read(self):
         async with request("get", self.url) as resp:

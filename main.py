@@ -21,47 +21,45 @@ logger.addHandler(handler)
 
 
 def result(drug: Drug, keywords: list):
-    try:
-        pdf = drug.label.read()
-        found = check_for_keywords(pdf, keywords)
-    except APIError:
-        pdf = "missing"
-        found = None
     data = drug._dict()
+    found = None
+    if data["label"] != "missing":
+        found = check_for_keywords(drug.label.read(), keywords)
     data["flagged"] = found
     data["rejected"] = False
     data["timestamp"] = datetime.utcnow()
     return data
 
+
 def multithreaded(ui):
-    executor = ProcessPoolExecutor()
     db = Client(config("mongo_srv_url"))
     keywords = db.get_keywords()
     rejected = db.get_rejected()
     futures = []
     start, end = ui.meta["start"], ui.meta["end"]
     data = query(start, end)
-    for item in data["results"]:
-        drug = Drug(item)
-        if drug.label and drug.id not in rejected:
-            fut = executor.submit(result, drug, keywords)
-            futures.append(fut)
-    ui.load(len(futures))
-    done = 0
-    for fut in futures:
-        res = fut.result()
-        done += 1
-        db.update_drug(res)
-        ui.update_bar(done)
-    hours = (end - start).total_seconds() // 3600
-    sh = spreadsheet()
-    to_worksheet(sh, "Cancer Related", db.get_flagged_drugs(hours))
-    to_worksheet(sh, "Newly added/updated drugs", db.get_new_drugs(hours))
-    to_worksheet(sh, "Drugs with Missing Labels", db.get_missing_labels(hours))
-    ui.result(sh.url)
-    
-
-    
+    with ProcessPoolExecutor() as executor:
+        for item in data["results"]:
+            drug = Drug(item)
+            if drug.label and drug.id not in rejected:
+                fut = executor.submit(result, drug, keywords)
+                futures.append(fut)
+        ui.load(len(futures))
+        done = 0
+        for fut in futures:
+            res = fut.result()
+            done += 1
+            db.update_drug(res)
+            ui.update_bar(done)
+        sh = spreadsheet()
+        to_worksheet(sh, "Cancer Related", db.get_flagged_drugs())
+        to_worksheet(sh, "Newly added/updated drugs", db.get_new_drugs())
+        to_worksheet(sh, "Drugs with Missing Labels", db.get_missing_labels())
+        to_worksheet(sh, 'Drugs without cancer-related terms', db.get_missing_drugs())
+        sh.del_worksheet(sh.sheet1)
+        for email in config("emails"):
+            sh.share(email, "user", "writer")
+        ui.result(sh.url)
 
 
 async def singlethreaded(ui):

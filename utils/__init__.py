@@ -15,5 +15,5 @@ __all__ = (
     config,
     to_datetime,
     to_worksheet,
-    spreadsheet
+    spreadsheet,
 )

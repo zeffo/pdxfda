@@ -24,14 +24,30 @@ class Client(MongoClient):
     def get_rejected(self):
         return {doc["id"] for doc in self.PDXFDA.Drugs.find(filter={"rejected": True})}
 
-    def get_missing_labels(self, hours):
-        return [drug.values()for drug in self.PDXFDA.Drugs.find(filter={"label": "missing"}, projection={"_id": False})]
-    
-    def get_flagged_drugs(self, hours):
-        return [drug.values()for drug in self.PDXFDA.Drugs.find(filter={"label": {"$ne": "missing"}}, projection={"_id": False})]
+    def get_missing_labels(self):
+        return [
+            [str(i) for i in drug.values()]
+            for drug in self.PDXFDA.Drugs.find(
+                filter={"label": "missing"}, projection={"_id": False}
+            )
+        ]
 
-    def get_new_drugs(self, hours):
-        return [drug.values()[1:] for drug in self.PDXFDA.Drugs.find(filter={"timestamp": {"$gte": datetime.utcnow()-timedelta(hours=hours)}}, projection={"_id": False})]
+    def get_flagged_drugs(self):
+        return [
+            [str(i) for i in drug.values()]
+            for drug in self.PDXFDA.Drugs.find(
+                filter={"flagged": {"$ne": None}}, projection={"_id": False}
+            )
+        ]
+
+    def get_new_drugs(self):
+        return [
+            [str(i) for i in drug.values()]
+            for drug in self.PDXFDA.Drugs.find(projection={"_id": False})
+        ]
+
+    def get_missing_drugs(self):
+        return [[str(i) for i in drug.values()] for drug in self.PDXFDA.Drugs.find(projection={"_id": False}, filter={"label": {"$ne": "missing"}, "flagged": None})]
 
 
 class AsyncClient(AsyncIOMotorClient):

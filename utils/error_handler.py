@@ -5,4 +5,8 @@ logger = getLogger("pdxfda")
 
 
 def handle(exception):
-    raise exception
+    if isinstance(exception, KeyError):
+        logger.debug(str(exception))
+        return
+    else:
+        raise exception

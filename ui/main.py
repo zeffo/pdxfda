@@ -9,17 +9,20 @@ psg.theme("DarkAmber")
 class UI:
     def __init__(self):
         self.meta = {}
-        self.db = Client(config("mongo_srv_url"))
+        self.db = Client(config("mongo_srv_url")) if config("mongo_srv_url") else None
+        
 
     def result(self, url):
-        RESULT  = [psg.Text(f"The results have been saved to {url}")]
+        self.window.close()
+        RESULT = [
+            [psg.Text("The results have been saved to: ", text_color="blue")],
+            [psg.Input(default_text=url, readonly=True, text_color="blue")],
+        ]
         self.window = psg.Window("Results", RESULT)
         while True:
             event, values = self.window.read()
             if event == psg.WIN_CLOSED:
-                exit()
-            
-
+                return
 
     def emails(self):
         loaded = config("emails")
@@ -70,11 +73,14 @@ class UI:
     def set_keywords(self, file):
         self.db.PDXFDA.Keywords.delete_many({})
         IGNORE = {"", '"'}
-        with open(file) as f:
-            keywords = f.read().lower().split("\n")
-            res = self.db.PDXFDA.Keywords.insert_many(
-                [{"keyword": word} for word in keywords if word not in IGNORE]
-            )
+        try:
+            with open(file) as f:
+                keywords = f.read().lower().split("\n")
+                self.db.PDXFDA.Keywords.insert_many(
+                    [{"keyword": word} for word in keywords if word not in IGNORE]
+                )
+        except Exception as e:
+            raise ConfigurationError(str(e))
 
     def get_meta(self, values: dict):
         meta = {
@@ -153,6 +159,7 @@ class UI:
                 break
             elif event == "Save":
                 update("mongo_srv_url", values.get("DatabaseUrl"))
+                self.db = Client(values.get("DatabaseUrl"))
                 break
             elif event == "Back":
                 break
@@ -163,7 +170,7 @@ class UI:
         KEYWORDS = [
             [
                 psg.Text(
-                    "Please set a valid Mongo SRV URL first!", visible=False, k="warn"
+                    "Invalid File!", visible=False, k="warn"
                 )
             ],
             [
