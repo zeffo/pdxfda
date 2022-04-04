@@ -18,14 +18,5 @@ All settings can be configured in the UI.
 
 Requirements can be found at `requirements.txt`.
 
-**Please raise an issue in this repository if you encounter a problem.**
 
-# Performance
-
-I have tried multiple mechanisms to improve performance, namely asyncio, threading and multiprocessing. The code is I/O bound for making HTTP requests, however it is CPU-intensive when extracting text from the PDFs. In my testing, I have found multiprocessing via the concurrent.futures package to be the fastest, but also the most resource intensive due to the usage of multiple cores. As a result, I have decided to give the user an option to use a very fast and resource intensive script, or a slower but single-threaded script to ensure that the script can run on most hardware.
-
-# Contributing
-
-Please use the [Black](https://black.readthedocs.io/en/stable/) code formatter to format your code. 
-The Python Discord's [style guide](https://pythondiscord.com/pages/guides/pydis-guides/contributing/style-guide/) should be adhered to as much as possible.
 
